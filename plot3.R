@@ -1,4 +1,5 @@
 library(data.table)
+rm(list=ls())
 
 # Initialization of the processed data table
 hpc_test=read.table("household_power_consumption.txt",nrows = 30 , header=TRUE, sep = ";")
